@@ -9,13 +9,14 @@ html {
 }
 
 img {
-  display: flex;
-  width: 100%;
+  width: 5em;
 }
 
-body{
+body {
   background-color: #ccc;
+  margin: 0;
 }
+
 li {
   display: flex;
   align-items: center;
@@ -23,7 +24,7 @@ li {
 }
 
 section {
-  margin: 1.5rem;
+  padding:2rem;
 }
 
 a {
@@ -33,4 +34,10 @@ a {
   padding: .5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
